@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
     </head>
     <body>
-        <input type = "text" />
+        <input type = "text" id = "searchbar" />
         <div>
             <h1>
                 Default
@@ -13,7 +13,7 @@
 
             </span>
             <h1>
-                Debounce
+                Debounc
             </h1>
             <span>
 
@@ -26,4 +26,11 @@
             </span>
         </div>
     </body>
+    <script>
+        console.log("hello this lession about debounce")
+        const onChange = (e) => {
+            console.log(e.target.value)
+        }
+        document.getElementById('searchbar').addEventListener('keyup', onChange)
+    </script>
 </html>
