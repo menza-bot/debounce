@@ -4,4 +4,4 @@ const onChange = (e) => {
     console.log(e.target.value)
 }
 
-document.getElementById('search').addEventListener('keyup', onChange)
+document.getElementById('searchbar').addEventListener('keyup', onChange)
